@@ -1,0 +1,114 @@
+@media screen and (max-width: 375px) {
+       .main {
+        background-color: #E6E8EC66;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        grid-gap: 32px;
+        padding: 32px 16px;
+    }
+    .name-catalog {
+        padding-left: 0;
+        font-family: Anonymous Pro;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+    }
+
+    /*Header*/
+
+    .header {
+        width: 375px;
+        height: auto;
+        background-color: #FFF;
+        margin: 0;
+        padding: 0 16px;
+    }
+    
+    .header__content {
+        display: flex;
+        padding: 24px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    
+    }
+    .header__logo {
+        padding: 0;
+    }
+   
+    .header__links {
+        display: flex;
+        align-items: flex-start;
+        padding: 0;
+        grid-gap: 24px;
+        list-style: none;
+    }
+    
+    .header__links-item {
+        color: #000;
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        text-decoration: none;
+    
+    }
+
+    /* Footer*/
+    .footer {
+        background-color: #121723;
+        margin: 0;
+        padding: 0 16px;
+    }
+    
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 0 24px 0 ;
+    }
+    
+    .footer__copyright:before {
+        content: "";
+        display: block;
+        width: 343px;
+        height: 1px;
+        background-color: #E6E8EC66;
+        margin: 0 auto 24px auto;
+    }
+    
+    .footer__links {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        grid-gap: 24px;
+    }
+    
+    .footer__links-item {
+    
+        color: #FFF;
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        text-decoration: none;
+    
+    }
+    
+    .footer__copyright {
+        font-family: Anonymous Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #A1A6B4;
+        text-align: center;
+        padding-bottom: 24px;
+    }
+
+}
